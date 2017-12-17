@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.energyclickerv2.MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:id="@+id/firstrow"
+            android:layout_width="match_parent"
+            android:layout_height="164dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/cake"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/cake" />
+
+            <ImageButton
+                android:id="@+id/borch"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/borsh" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/secondrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/muffin"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/muffin2" />
+
+            <ImageButton
+                android:id="@+id/mars"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/mars" />
+
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/thirdrow"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bigmac"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dd8cd1016067dc852ccd34b857cbebd8" />
+
+            <ImageButton
+                android:id="@+id/sandwich"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:background="@android:color/background_light"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/sandwich" />
+        </TableRow>
+
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
